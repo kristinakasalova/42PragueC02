@@ -6,7 +6,7 @@
 /*   By: kristina <kristina@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/18 09:49:33 by kristina          #+#    #+#             */
-/*   Updated: 2023/09/19 10:31:05 by kristina         ###   ########.fr       */
+/*   Updated: 2023/09/21 13:33:42 by kristina         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,12 +38,12 @@ int ft_str_is_alpha(char *str)
 	return end_value;			
 }
 
-int	main(void)
-{
-	char *a;
-	a = "he11o";
+// int	main(void)
+// {
+// 	char *a;
+// 	a = "he11o";
   
-	//ft_str_is_alpha(a);
-	printf("%d", ft_str_is_alpha(a));
-	return 0;
-}
+// 	//ft_str_is_alpha(a);
+// 	printf("%d", ft_str_is_alpha(a));
+// 	return 0;
+// }

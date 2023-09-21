@@ -6,7 +6,7 @@
 /*   By: kristina <kristina@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/18 09:50:12 by kristina          #+#    #+#             */
-/*   Updated: 2023/09/19 15:35:46 by kristina         ###   ########.fr       */
+/*   Updated: 2023/09/21 14:00:11 by kristina         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,13 +20,19 @@ char *ft_strcapitalize(char *str)
 
 	while(str[i] != '\0')
 	{
-		if ((('a' <= str[i]) && (str[i] <= 'z'))&&((0 <= str[i-1]) && (str[i-1] <= 47)))
+	if ((('a' <= str[i]) && (str[i] <= 'z'))&&((0 <= str[i-1]) && (str[i-1] <= 47)))
 		{
 			str[i] = str[i] - 32;
             printf("%c",str[i]);
             i++;
 		}
-        else if (('A' <= str[i]) && (str[i] <= 'Z'))
+		else if ((('A' <= str[i]) && (str[i] <= 'Z'))&&((0 <= str[i-1]) && (str[i-1] <= 47)))
+		{
+			str[i] = str[i];
+			printf("%c",str[i]);
+        	i++;	
+		}
+		else if (('A' <= str[i]) && (str[i] <= 'Z'))
 		{
 			str[i] = str[i] + 32;
             printf("%c",str[i]);
@@ -41,10 +47,10 @@ char *ft_strcapitalize(char *str)
 	return str;			
 }
 
-int	main(void)
-{
-    char a[] = "heeLL0+wORLd, what a #day! ";
+// int	main(void)
+// {
+//     char a[] = "HELLO+wORLd, what a #day! ";
 
-	ft_strcapitalize(a);
-	return 0;
-}
+// 	ft_strcapitalize(a);
+// 	return 0;
+// }

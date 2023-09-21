@@ -6,7 +6,7 @@
 /*   By: kristina <kristina@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/18 09:49:28 by kristina          #+#    #+#             */
-/*   Updated: 2023/09/18 13:51:13 by kristina         ###   ########.fr       */
+/*   Updated: 2023/09/21 13:58:55 by kristina         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char *ft_strncpy(char *dest, char *src, unsigned int n)
 {
-	int i;
+	unsigned int i;
 	i = 0;
 	
 	while(i < n)
@@ -26,15 +26,15 @@ char *ft_strncpy(char *dest, char *src, unsigned int n)
 	return dest;
 }
 
-int	main(void)
-{
-	char dest[15];
-	char *src;
-	src = "Hello 42Prague!";
+// int	main(void)
+// {
+// 	char dest[15];
+// 	char *src;
+// 	src = "Hello 42Prague!";
     
-	ft_strncpy(dest, src, 7);
+// 	ft_strncpy(dest, src, 7);
 
-	printf("Copied string: %s\n", dest);	
+// 	printf("Copied string: %s\n", dest);	
 	
-	return 0;
-}
+// 	return 0;
+// }

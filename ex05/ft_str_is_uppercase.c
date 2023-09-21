@@ -6,7 +6,7 @@
 /*   By: kristina <kristina@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/18 09:49:48 by kristina          #+#    #+#             */
-/*   Updated: 2023/09/19 12:57:47 by kristina         ###   ########.fr       */
+/*   Updated: 2023/09/21 13:34:12 by kristina         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,11 +36,11 @@ int ft_str_is_uppercase(char *str)
 	return end_value;			
 }
 
-int	main(void)
-{
-	char *a;
-	a = "HEL1o";
+// int	main(void)
+// {
+// 	char *a;
+// 	a = "HEL1o";
   
-	printf("%d", ft_str_is_uppercase(a));
-	return 0;
-}
+// 	printf("%d", ft_str_is_uppercase(a));
+// 	return 0;
+// }

@@ -6,7 +6,7 @@
 /*   By: kristina <kristina@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/18 09:49:55 by kristina          #+#    #+#             */
-/*   Updated: 2023/09/19 15:16:45 by kristina         ###   ########.fr       */
+/*   Updated: 2023/09/21 13:34:29 by kristina         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,10 +35,10 @@ char *ft_strupcase(char *str)
 	return str;			
 }
 
-int	main(void)
-{
-    char a[] = "heeLL0";
+// int	main(void)
+// {
+//     char a[] = "heeLL0";
 
-	ft_strupcase(a);
-	return 0;
-}
+// 	ft_strupcase(a);
+// 	return 0;
+// }

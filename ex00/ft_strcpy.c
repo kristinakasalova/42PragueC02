@@ -6,7 +6,7 @@
 /*   By: kristina <kristina@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/18 09:49:23 by kristina          #+#    #+#             */
-/*   Updated: 2023/09/18 13:51:05 by kristina         ###   ########.fr       */
+/*   Updated: 2023/09/21 13:33:12 by kristina         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,15 +26,15 @@ char *ft_strcpy(char *dest, char *src)
 	return dest;
 }
 
-int	main(void)
-{
-	char dest[15];
-	char *src;
-	src = "Hello 42Prague!";
+// int	main(void)
+// {
+// 	char dest[15];
+// 	char *src;
+// 	src = "Hello 42Prague!";
 
-	ft_strcpy(dest, src);
+// 	ft_strcpy(dest, src);
 
-	printf("Copied string: %s\n", dest);	
+// 	printf("Copied string: %s\n", dest);	
 	
-	return 0;
-}
+// 	return 0;
+// }

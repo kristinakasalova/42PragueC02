@@ -6,7 +6,7 @@
 /*   By: kristina <kristina@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/18 09:49:51 by kristina          #+#    #+#             */
-/*   Updated: 2023/09/19 13:02:30 by kristina         ###   ########.fr       */
+/*   Updated: 2023/09/21 13:34:22 by kristina         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,11 +36,11 @@ int ft_str_is_printable(char *str)
 	return end_value;			
 }
 
-int	main(void)
-{
-	char *a;
-	a = " " ;
+// int	main(void)
+// {
+// 	char *a;
+// 	a = " " ;
   
-	printf("%d", ft_str_is_printable(a));
-	return 0;
-}
+// 	printf("%d", ft_str_is_printable(a));
+// 	return 0;
+// }

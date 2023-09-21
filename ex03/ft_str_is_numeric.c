@@ -6,7 +6,7 @@
 /*   By: kristina <kristina@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/18 09:49:37 by kristina          #+#    #+#             */
-/*   Updated: 2023/09/19 10:40:05 by kristina         ###   ########.fr       */
+/*   Updated: 2023/09/21 13:34:15 by kristina         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,11 +36,11 @@ int ft_str_is_numeric(char *str)
 	return end_value;			
 }
 
-int	main(void)
-{
-	char *a;
-	a = "4946513216l";
+// int	main(void)
+// {
+// 	char *a;
+// 	a = "4946513216l";
   
-	printf("%d", ft_str_is_numeric(a));
-	return 0;
-}
+// 	printf("%d", ft_str_is_numeric(a));
+// 	return 0;
+// }
