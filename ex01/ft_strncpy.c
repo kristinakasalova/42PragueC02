@@ -6,24 +6,24 @@
 /*   By: kristina <kristina@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/18 09:49:28 by kristina          #+#    #+#             */
-/*   Updated: 2023/09/21 13:58:55 by kristina         ###   ########.fr       */
+/*   Updated: 2023/09/26 10:34:05 by kristina         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+// #include <stdio.h>
 
 char *ft_strncpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
 	i = 0;
 	
-	while(i < n)
+	while(i < n && src[i] != '\0')
 	{
 		dest[i] = src[i];
 		i++;
 	}
-
-	return dest;
+	dest[i] = '\0';
+	return (dest);
 }
 
 // int	main(void)
